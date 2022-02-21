@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Roadmap-ReactJs</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body class="container">
+   <h1 class="text-center" style="margin-top: 20px">ReactJs</h1>
+   <h3>What is ReactJs ?</h3>
+   <p>React is one of the most popular JavaScript library for designing rich and interactive User Interfaces. React's component-based functionality lets you make reusable components with which you can scale your application effectively. Using React the views of your app makes your code more predictable and easier to debug.</p>
+   <h3>Pre-reqisites :</h3>
+   <p>
+   	<ol>
+   		<li>Basics of HTML(such as HTML elements, form, table, div and list tags with their attributes).</li>
+   		<li>Basics of CSS(such as styling the html elements, CSS selectors and box model).</li>
+   		<li>Basics of JavaScript(such as variables, conditional statements, loops, data types, DOM manipulation and event triggering).</li>
+   	</ol>
+   </p>
+   <h3>Installation</h3>
+   <h4>Pre-requirements</h4>
+   <p>
+   	<ul>
+   		<li>Install the latest version of Windows 10 (Version 1903+, Build 18362+)</li>
+   		<li>Install Windows Subsystem for Linux (WSL), including a Linux distribution (like Ubuntu) and make sure it is running in WSL 2 mode. You can check this by opening PowerShell and entering: wsl -l -v</li>
+   		<li>Install Node.js on WSL 2: These instructions use Node Version Manager (nvm) for installation, you will need a recent version of NodeJS to run create-react-app, as well as a recent version of Node Package Manager (npm). For exact version requirements, see the Create React App website.</li>
+   	</ul>
+   </p>
+   <h4>Create your React app</h4>
+   <p>
+   	<ol>
+   		<li>Open a terminal(Windows Command Prompt or PowerShell).</li>
+        <li>Create a new project folder: mkdir ReactProjects and enter that directory: cd ReactProjects.</li>
+        <li>Install React using create-react-app, a tool that installs all of the dependencies to build and run a full React.js application:<br><b>Command : </b> npx create-react-app my-app</li>
+        <li>This will first ask for your permission to temporarily install create-react-app and it's associated packages. Once completed, change directories into your new app ("my-app" or whatever you've chosen to call it): cd my-app.</li>
+        <li>Start your new React app: <br> <b>command : </b> npm start</li>
+        <li>When you're ready to deploy your web app to production, running npm run build will create a build of your app in the "build" folder. You can learn more in the Create React App User Guide.</li>
+   	</ol>
+   </p>
+   <h3>RoadMap</h3>
+   <p>I have devided the road map into 3 parts
+   	<ol>
+   		<li>Core</li>
+   		<li>Basics</li>
+   		<li>Styling Ui</li>
+   	</ol>
+   </p>
+   <h4>Core :</h4>
+   <ul>
+   	<li><b>Setting up react project</b> - You can set up a react project by executing some commands, on completing this it gives a React app boilerplate, you can then run you react app to see the initial UI of React. By completing this step you should be familiar with the concept of creating a new react project locally using CLI(Command-line Interface).</li><br>
+   	<li><b>Execution flow of React</b> - It is important for a React developer to understand the code flow of a react app. Also understanding the project structure. By completing this step you should be familiar with React app folder structure, Also how react app runs in the browser, what is virtual DOM and how DOM is manipulated in React.</li><br>
+   	<li><b>Using JSX</b> - JSX looks like HTML, It is based on XML, JSX transformed into HTML tags during runtime. By learning JSX concept you should be having a good understanding of JSX, Similarities between HTML and JSX and Advantages of JSX over HTML element tags.</li><br>
+   	<li><b>Component types</b> - It is important to have knowledge of Component, their types and component life-cycle. By learning the Component concept you should have a good understanding of different component types and which to use when.</li><br>
+   	<li><b>Handling states/useState hook</b> - State is an object within which we can store, read and update data in a component. In the functional component we can use 'useState' hook to manage state locally. By learning the React state you should have a good understanding of how a state works, using the useState hook, how to show state value in JSX and how to update the state.</li><br>
+   	<li><b>Handling functions</b> - Function in react is same as javascript functions, we can create our own functions to perform specific tasks. By learning about functions you should be able to create functions in react component and calling the function.</li><br>
+   	<li><b>Handling JSX events </b>- JSX events allows us to handle events which are react's element(JSX) specific. By learning about JSX events you should have a good understanding of different JSX events(such as onClick, onChange, etc), and their use.</li><br>
+   	<li><b>Modules</b> - Modules lets you write sharable code so that you can reuse it by importing. By learning about modules you should be able to understand the concept of modules such as importing and exporting modules, public and private properties and function.</li><br>
+   	<li><b>Components nesting and reusability</b> - Components are an independent and reusable block of code which returns JSX and can also perform some specific tasks. By learning component reusability you should be able to understand component nesting, also root, parent and child component, and component tree. you should also be having a good knowledge of creating component in such a way that they can be used in multiple places.</li><br>
+   	<li><b>Props</b> - Using Props we can pass data from one component to another. By learning Props you must be familiar with passing the props from the parent component to the child component and then receiving and using them in the child component.</li><br>
+   	<li><b>Conditional rendering</b> - Conditional rendering lets you render JSX conditionally just like we use if else condition in javascript. By learning about conditional rendering you should be able to display UI conditionally, and understanding the ternary operator used in React JSX.</li>
+   </ul>
+   <h4>Basics :</h4>
+   <p>
+   	<ul>
+   		<li><b>Debugging and logging</b> - React dev tools extension helps you monitor react state and components within the browsers window. By learning this step you should be able to debug react app.</li><br>
+   		<li><b>Fetching & displaying data from external API </b>- This lets you perform REST API methods using the built-in method of javascript. By learning this step you should be having a good understanding of javascript's built-in fetch function to fetch the data from an endpoint, storing the data and displaying accordingly on the UI.</li><br>
+   		<li><b>Understanding and using Axios package</b> - Axios is one of the popular library for making HTTP requests to external API endpoints effectively. By learning axios you should be familiar with fetching async data from an endpoint using axios and should also be familiar with other REST API methods using axios.</li><br>
+   		<li><b>UseEffect hook </b>- UseEffect hook lets you decide what to perform after rendering a component, Also affecting the component based on the dependency provided to it. By learning the UseEffect hook you should be familiar with the side effect of the component rendering with dependency.</li><br>
+   		<li><b>Context API/useContext hook</b> - Context API is React's built-in functionality to performs state management without using any external library. By learning about Context API you should be having a good understanding of global state and state management, consumer and provider, useContext and UserReducer hook.</li><br>
+   		<li><b>Browser's local storage</b> - Local storage lets you store the data locally within the browser's storage. By learning this step you should have a good understanding of browser local storage, reading and writing to and from local storage.</li><br>
+   		<li><b>React router</b> - React router DOM is one of the popular external library for navigating your react app, It also lets your UI in sync with the URL. By learning about React router DOM library you should be familiar with navigating and routing your react application and switching the UI as per the route.</li>
+   	</ul>
+   </p>
+   <h4>Styling UI :</h4>
+   <p>
+   	<ul>
+   		<li><b>Grid layout </b>- CSS Grid Layout concept offers a grid-based layout system for designing the UI on the basis of rows and columns. By learning Grid layout you should be having a good understanding of placing UI elements as a cell in the grid layout.</li><br>
+   		<li><b>Flexbox</b> - Flexbox Layout lets you build flexible and responsive UI without using CSS's positioning and float. By learning flexbox you should be familiar with concept of container, and aligning and justifying elements.</li>
+   		<br>
+   		<li><b>SCSS </b>- To use scss you have to install node-sass package using npm. It's a CSS preprocessor. By learning SCSS you should be familiar with importing other scss files, declaring and using variables, nesting and a lot more things.</li>
+   	</ul>
+   </p>
+   <div class="row">
+   	   <div class="col-12 text-center">
+   	   	<img src="https://res.cloudinary.com/practicaldev/image/fetch/s--59KAnPTb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/gox9e6qe492nbd9xe444.png" class="image-fluid" width="100%" height="100%">
+   	   </div>
+   </div>
+</body>
+</html>
